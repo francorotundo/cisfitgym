@@ -1,0 +1,55 @@
+.h1-responsive {
+    display: none;
+}
+
+.h1-desktop {
+    display: block;
+}
+
+.h1-desktop img{
+    height: 25px;
+}
+
+nav ul {
+    display: block;
+}
+
+nav .fa-solid {
+    display: none;
+}
+
+nav ul {
+    background-color: var(--white);
+    position:static;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    padding-top: 0px;
+    z-index: 1;
+    transition: none;
+}
+
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+.overlay h1 {
+    font-size: 7rem;
+}
+
+.overlay p {
+    margin: 20px 0;
+    font-size: 3rem;
+}
+
+.overlay a{
+    border: none;
+    background-color: #d62d20;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 2rem;
+}

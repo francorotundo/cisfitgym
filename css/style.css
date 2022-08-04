@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --white: #ffffff;
+    --grey: #ababab;
+    --red: 	#d62d20;
+    --black: #000;
+  }
+body {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+nav {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10% 0;
+    position: fixed;
+    top:0;
+    right: 0;
+    background-color: var(--white);
+    width: 100%;
+    z-index: 1;
+}
+
+.h1-responsive img{
+    height: 25px;
+}
+
+.h1-desktop {
+    display: none;
+}
+
+nav h1 {    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    color: var(--black);
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav .fa-solid {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+nav .fa-bars, nav .fa-xmark {
+    color: var(--black);
+    margin-top: 10px;
+}
+
+nav ul {
+        background-color: var(--white);
+        position: fixed;
+        top: 0;
+        right: -150px;
+        width: 150px;
+        height: auto;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+nav ul li {
+    display: block;
+    margin: 20px;
+    text-align: center;
+}
+
+nav ul i {
+    position: absolute;
+    top:25px;
+    left: 25px;
+}
+
+nav ul li a {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: var(--black);
+    position: relative;
+
+}
+
+nav ul li a:hover {
+    color: var(--white);
+    text-decoration: none;
+    background-color: #d62d20;
+    border-radius: 5px;
+}
+
+#carouselExampleSlidesOnly img {
+    height: 75vh;
+    object-fit: cover;
+    filter: grayscale(40%);
+}
+
+#carouselExampleSlidesOnly {
+    position: relative;
+}
+
+#carouselExampleSlidesOnly .overlay .container,
+#carouselExampleSlidesOnly .overlay .row {
+  height: 100%;
+}
+
+.overlay {
+    position:absolute;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+}
+
+
+.overlay p {
+    margin: 20px 0;
+    font-size: 1.8rem;
+}
+
+.overlay a{
+    border: none;
+    background-color: #d62d20;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 1.6rem;
+}
+
+.overlay a:hover {
+    color: var(--red)
+}
+
+
+/* .header-text {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+}
+
+.header-text-2 {
+    font-size: 2.2rem;
+    color: var(--blue);
+}
+
+.header-text-3 {
+    margin-top: 5px;
+    font-size: 1.5rem;
+    margin-bottom: 60px;
+} */
