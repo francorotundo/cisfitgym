@@ -53,3 +53,25 @@ nav ul li {
     border-radius: 15px;
     font-size: 2rem;
 }
+
+#nosotros h2 {
+    font-size: 7rem;
+    color: #d62d20;
+}
+
+#nosotros p {
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+
+#nosotros {
+    background-image: none;
+}
+
+#nosotros .col2 {
+    display: block;
+}
+
+#nosotros img {
+    width: 100%;
+}
