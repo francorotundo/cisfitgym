@@ -291,7 +291,7 @@ nav ul li a:hover, .active {
 
 .ofrecemos-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, min(220px, 1fr), max(250, 1fr));
+    grid-template-columns: repeat(auto-fit, min(200px, 1fr), max(250, 1fr));
 }
 
 .ofrecemos-container .item {
@@ -321,7 +321,7 @@ nav ul li a:hover, .active {
 }
 
 #contacto h2 {
-    margin-left: 8%;
+    padding-left: 8%;
     margin-bottom: 30px;
     color: var(--black);
     font-size: 3rem;
@@ -336,7 +336,7 @@ nav ul li a:hover, .active {
 }
 
 .social-icons a {
-    min-width: 250px;
+    min-width: 200px;
     text-decoration: none;
     text-align: center;
     margin: 20px 0;
