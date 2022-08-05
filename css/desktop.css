@@ -75,3 +75,62 @@ nav ul li {
 #nosotros img {
     width: 100%;
 }
+
+#clases {
+    position: static;
+}
+
+#clases .col1 img{
+    margin-top: 0;
+    width: 100%;
+    opacity: 100%;
+    position: static;
+    border-radius: 10px;
+}
+
+#clases .col2 {
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#clases .yoga-description {
+    display: block;
+}
+#clases .col2 li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+#clases .col2 ul {
+    margin: 15px 0;
+}
+
+#clases .col2 li, #clases .col2 p {
+    font-size: 1.8rem;
+}
+
+#ofrecemos {
+    padding: 40px;
+    color:#2d2d2d;
+}
+
+#ofrecemos .col1 {
+    text-align: center;
+}
+
+#ofrecemos .col1 h2 {
+    font-size: 7rem;
+    margin-bottom: 20px;
+}
+
+.ofrecemos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-left: 30px;
+}
+
+.ofrecemos-container i {
+    font-size: 5rem;
+}

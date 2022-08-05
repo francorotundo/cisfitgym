@@ -176,5 +176,93 @@ nav ul li a:hover, .active {
     display: none;
 }
 
+#clases {
+    background: var(--black);
+    padding: 40px 0;
+    position: relative;
+    z-index: -2;
+}
+.class-title {
+    text-align: center;
+}
+#clases h2 {
+    color: var(--grey);
+    font-size: 7rem;
+    margin-bottom: 40px;
+}
+
+#clases .col1 img{
+    margin-top: -40px;
+    width: 90%;
+    opacity: 30%;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+#clases .col2 {
+    min-height: 350px;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#clases .yoga-description {
+    display: none;
+}
+#clases .col2 li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+#clases .col2 ul {
+    margin: 15px 0;
+}
+
+#clases .col2 li, #clases .col2 p {
+    font-size: 1.8rem;
+    
+
+}
+
+.teacher {
+    text-align: end;
+}
 
 
+#ofrecemos {
+    padding: 40px;
+    color:#2d2d2d;
+    background-color: var(--white);
+}
+
+#ofrecemos .col1 {
+    text-align: center;
+}
+
+#ofrecemos .col1 h2 {
+    font-size: 3rem;
+}
+
+.ofrecemos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.ofrecemos-container .item {
+    min-width: 240px;
+    max-width: 300px;
+    text-align: center;
+    margin: 30px 0;
+    padding: 0 auto;
+}
+
+.ofrecemos-container i {
+    margin: 20px 0;
+    font-size: 5rem;
+}
+
+.ofrecemos-container .item p {
+    font-size: 1.6rem;
+}
