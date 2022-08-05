@@ -1,0 +1,11 @@
+.overlay h1, 
+#nosotros h2, 
+#clases h2,
+#ofrecemos h2,
+#contacto h2 {
+    font-size: 5rem;
+}
+
+.social-icons a {
+    min-width: 180px;
+}

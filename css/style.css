@@ -22,6 +22,29 @@ body {
     color: var(--black);
 }
 
+header {
+    position: relative;
+}
+
+.btn-top {
+    text-decoration: none;
+    font-size: 3rem;
+    color: var(--red);
+    padding: 10px 20px;
+    border: 1px solid var(--red);
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    border-radius: 50%;
+}
+
+.btn-top:hover {
+    transition: transform 0.5s;
+    transform: translateY(-5px);
+    color: var(--white);
+    background-color: var(--red);
+}
+
 nav {
     height: 60px;
     display: flex;
@@ -95,6 +118,11 @@ nav ul li a {
     color: var(--black);
     position: relative;
 
+}
+
+.btn:hover {
+    transition: transform 0.5s;
+    transform: translateY(-5px);
 }
 
 nav ul li a:hover, .active {
@@ -186,8 +214,8 @@ nav ul li a:hover, .active {
     text-align: center;
 }
 #clases h2 {
-    color: var(--grey);
-    font-size: 7rem;
+    color: #ab9baa;
+    font-size: 3rem;
     margin-bottom: 40px;
 }
 
@@ -206,6 +234,7 @@ nav ul li a:hover, .active {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 40px;
 }
 
 #clases .yoga-description {
@@ -226,10 +255,23 @@ nav ul li a:hover, .active {
 
 }
 
+#clases a {
+    text-decoration: none;
+    color: #ab9baa;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#clases a:hover {
+    background-color: rgb(27, 27, 27);
+    color: #634761;
+    transition: 0.5s;
+}
+
 .teacher {
     text-align: end;
 }
-
 
 #ofrecemos {
     padding: 40px;
@@ -263,6 +305,67 @@ nav ul li a:hover, .active {
     font-size: 5rem;
 }
 
+.ofrecemos-container i:hover {
+    transition: 0.3s;
+    color: var(--red);
+}
+
 .ofrecemos-container .item p {
     font-size: 1.6rem;
+}
+
+
+#contacto {
+    padding: 40px 0;
+    background-color: #e4e1e4;
+}
+
+#contacto h2 {
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 10%;
+}
+
+.social-icons a {
+    min-width: 250px;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-icons i {
+    font-size: 7rem;
+    margin-bottom: 10px;
+}
+
+.social-icons img {
+    width: 130px;
+}
+
+.fa-envelope {
+    color: #d62d20;
+}
+
+.fa-whatsapp {
+    color: #42e961;
+}
+
+.social-icons p {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+footer {
+    background-color: var(--black);
+    color: var(--grey);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.2rem;
 }
