@@ -340,6 +340,11 @@ nav ul li a:hover, .active {
     margin: 20px 0;
 }
 
+.social-icons a:hover {
+    transition: transform 0.5s;
+    transform: translateY(-5px);
+}
+
 .social-icons i {
     font-size: 7rem;
     margin-bottom: 10px;
